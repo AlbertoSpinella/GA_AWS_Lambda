@@ -13,7 +13,7 @@
  1. Create a GitHub repo
  2. Setting up AWS IAM user
  3. Init your GitHub repo
- 4. Creating GitHub Actions
+ 4. Create GitHub Actions
  5. Test your Lambda function
  6. Create API Gateway
 
@@ -52,7 +52,7 @@
 	 - in the `functions`, name the function as you wish, and feel free to add more. For this example, be sure that the `handler` path correctly refers to your `src/handler.hello`;
 	 - **add** `timeout: 60` and `memorySize: 128`.
 
-## 4. Creating GitHub Actions
+## 4. Create GitHub Actions
 
  - In your project folder, **create a folder** and name it `.github`. Mind the dot before github. Inside that folder, **create another folder** called `workflows`. Inside that folder, **create a file** called `main.yml`.
  - Go to the serverless GitHub page: https://github.com/serverless/github-action and **copy the given example, then paste it** inside your `main.yml` file.
