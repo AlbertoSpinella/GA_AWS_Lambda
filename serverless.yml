@@ -1,0 +1,13 @@
+service: basic-serverless-lambda
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: dev
+  region: eu-central-1
+
+functions:
+  hello:
+    handler: src/handler.hello
+    timeout: 60
+    memorySize: 128
