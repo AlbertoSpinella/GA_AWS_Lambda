@@ -11,7 +11,7 @@
 ## Index
 
  1. Create a GitHub repo
- 2. Setting up AWS IAM user
+ 2. Set up AWS IAM user
  3. Init your GitHub repo
  4. Create GitHub Actions
  5. Test your Lambda function
@@ -21,7 +21,7 @@
 
  - Go to your GitHub profile, and then click on "**Repositories**". Click on the green button "**New**", give the repo a name (***basic-serverless-lambda***) and then choose Public or Private based on your needs; then click on the "**Create repository**" green button. Once you have created it, copy the link, go to your terminal and enter the command: `git clone [link-to-your-repo.git]`.
 
-## 2. Setting up AWS IAM user
+## 2. Set up AWS IAM user
 
  - In your AWS account, go to the **IAM control panel**, in the section **Users**:
    https://console.aws.amazon.com/iam/home#/users
