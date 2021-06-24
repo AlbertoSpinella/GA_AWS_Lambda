@@ -31,7 +31,7 @@
 	 - In "Set permissions" section, be sure that the "**Add user to group**" is setted, and then click "**Create group**". Give the group a name (***lambda-group***), and in the Search box find the following policies:
 		 - **AmazonS3FullAccess**
 		 - **AWSCloudFormationFullAccess**
-		 - **AWSLambdaFullAccess**
+		 - **AWSLambda_FullAccess**
 		 - **AWSLambdaRole**
 		 - **CloudWatchLogsFullAccess**
 		 - **IAMFullAccess**
