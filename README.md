@@ -1,8 +1,5 @@
 ﻿# Basic AWS Lambda deploy using GitHub Actions & Serverless
 
-## Link
- - https://si2fyr5nc7.execute-api.eu-central-1.amazonaws.com/basic-serverless-lambda-dev-hello
-
 ## Prerequisites
  - Having an **AWS** account
  - Having a **GitHub** account
